@@ -1,0 +1,16 @@
+LTR-329
+
+Vin		Pin-3.3V
+3.3V		None
+GND		Pin-GND
+SCL		Pin-I2C3-A6
+SDA		Pin-I2C3-D12
+
+
+SHT-40
+
+Vin		Pin-3.3V
+3.3V		None
+GND		Pin-GND
+SCL		Pin-I2C1-D1
+SDA		Pin-I2C1-D0
