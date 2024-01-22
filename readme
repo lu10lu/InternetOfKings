@@ -1,0 +1,11 @@
+Welcome to the STM32 Rover Sensor and Communication Project! This Git repository provides various branches that culminate in the complete codebase for programming the STM32 microcontroller to measure light and temperature sensors, transmit data to the BLE module, implement Dash7 communication, and send UART commands to the rover.
+
+Branches Overview:
+endcode Branch
+The endcode branch contains the comprehensive codebase representing the total project. This branch integrates all the functionalities, offering a complete solution for the STM32 Rover Sensor and Communication Project.
+
+linebot Branch
+The linebot branch focuses on the specific code running on the LineBot. In this branch, all peripherals are shutdown to ensure efficient operation. Use this branch if you want to deploy the code on a LineBot with minimal power consumption.
+
+Progress Branches
+The remaining branches showcase the incremental progress made throughout the development process. Each branch represents a stage in the project's evolution, highlighting the step-by-step journey to achieve the final project goals.
