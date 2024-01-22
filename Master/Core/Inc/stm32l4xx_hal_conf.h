@@ -40,7 +40,7 @@
 /*#define HAL_CRYP_MODULE_ENABLED   */
 /*#define HAL_CAN_MODULE_ENABLED   */
 /*#define HAL_COMP_MODULE_ENABLED   */
-/*#define HAL_I2C_MODULE_ENABLED   */
+#define HAL_I2C_MODULE_ENABLED
 /*#define HAL_CRC_MODULE_ENABLED   */
 /*#define HAL_CRYP_MODULE_ENABLED   */
 /*#define HAL_DAC_MODULE_ENABLED   */
@@ -69,7 +69,7 @@
 /*#define HAL_QSPI_MODULE_ENABLED   */
 /*#define HAL_QSPI_MODULE_ENABLED   */
 /*#define HAL_RNG_MODULE_ENABLED   */
-/*#define HAL_RTC_MODULE_ENABLED   */
+#define HAL_RTC_MODULE_ENABLED
 /*#define HAL_SAI_MODULE_ENABLED   */
 /*#define HAL_SD_MODULE_ENABLED   */
 /*#define HAL_SMBUS_MODULE_ENABLED   */
@@ -236,8 +236,8 @@
 #define USE_HAL_SWPMI_REGISTER_CALLBACKS      0U
 #define USE_HAL_TIM_REGISTER_CALLBACKS        0U
 #define USE_HAL_TSC_REGISTER_CALLBACKS        0U
-#define USE_HAL_UART_REGISTER_CALLBACKS       0U
-#define USE_HAL_USART_REGISTER_CALLBACKS      0U
+#define USE_HAL_UART_REGISTER_CALLBACKS       1U
+#define USE_HAL_USART_REGISTER_CALLBACKS      1U
 #define USE_HAL_WWDG_REGISTER_CALLBACKS       0U
 
 /* ################## SPI peripheral configuration ########################## */
